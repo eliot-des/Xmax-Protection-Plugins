@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="kZGB8G" name="XmaxFeedback" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="Fv8ek0" name="XmaxFeedback">
+    <GROUP id="{81D2F7F5-D4E4-5781-76B5-DAB0366F5906}" name="Assets">
+      <FILE id="sVRHx8" name="Lato-Medium.ttf" compile="0" resource="1" file="Source/Lato-Medium.ttf"/>
+    </GROUP>
+    <GROUP id="{C0FC3366-5489-399E-4525-B7A9BDFC421E}" name="Source">
+      <FILE id="KPDO8y" name="Parameters.cpp" compile="1" resource="0" file="Source/Parameters.cpp"/>
+      <FILE id="IsghZv" name="Parameters.h" compile="0" resource="0" file="Source/Parameters.h"/>
+      <FILE id="H0ZOQj" name="RotaryKnob.cpp" compile="1" resource="0" file="Source/RotaryKnob.cpp"/>
+      <FILE id="x5RI8c" name="RotaryKnob.h" compile="0" resource="0" file="Source/RotaryKnob.h"/>
+      <FILE id="iu8kQl" name="DelayLine.h" compile="0" resource="0" file="Source/DelayLine.h"/>
+      <FILE id="bN7Kvs" name="BiquadFilter.h" compile="0" resource="0" file="Source/BiquadFilter.h"/>
+      <FILE id="QXujtL" name="FilterDesign.h" compile="0" resource="0" file="Source/FilterDesign.h"/>
+      <FILE id="gdS8sM" name="LookAndFeel.cpp" compile="1" resource="0" file="Source/LookAndFeel.cpp"/>
+      <FILE id="TjCE3C" name="LookAndFeel.h" compile="0" resource="0" file="Source/LookAndFeel.h"/>
+      <FILE id="Sq9HX1" name="Measurement.h" compile="0" resource="0" file="Source/Measurement.h"/>
+      <FILE id="muvC43" name="LevelMeter.cpp" compile="1" resource="0" file="Source/LevelMeter.cpp"/>
+      <FILE id="QAK2id" name="LevelMeter.h" compile="0" resource="0" file="Source/LevelMeter.h"/>
+      <FILE id="UbfRE9" name="DisplacementMeter.cpp" compile="1" resource="0"
+            file="Source/DisplacementMeter.cpp"/>
+      <FILE id="S1z5Qq" name="DisplacementMeter.h" compile="0" resource="0"
+            file="Source/DisplacementMeter.h"/>
+      <FILE id="EtrHyJ" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="XDnxuX" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="UiX9tH" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="S1UiQi" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="XmaxFeedback" enablePluginBinaryCopyStep="1"
+                       vst3BinaryLocation="C:\Program Files\Common Files\VST3\EliotDSP"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="XmaxFeedback" enablePluginBinaryCopyStep="1"
+                       vst3BinaryLocation="C:\Program Files\Common Files\VST3\EliotDSP"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
