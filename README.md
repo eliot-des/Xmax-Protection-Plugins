@@ -1,6 +1,6 @@
 # Xmax Protection Plugins : Audio plugins for mechanical overload protection of loudspeakers.
 ---
-by Eliot Deschang & Florian Marie 2025.
+Eliot Deschang & Florian Marie 2025, IMDEA Master students.
 
 This repository gathers three different plugins implemented as part of a Master 2 project scheduled over three months. The aim of the project was to develop algorithms to prevent mechanical overload of loudspeakers.  
 Mechanical overload is prevented by limiting the membrane excursion to a certain threshold, referred to as $X_{\text{max}}$.  
