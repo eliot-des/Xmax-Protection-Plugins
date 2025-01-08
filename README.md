@@ -6,8 +6,7 @@ This repository gathers three different plugins implemented as part of a Master 
 
 During the course of this research, three plugins were developed to evaluate the effectiveness of these algorithms on a loudspeaker. The plugins were fully coded in C++ using the JUCE framework, after implementing and testing the algorithms in Python.
 
-
-**Disclaimer:**  The GUI style is the one seen on this [repository](https://github.com/TheAudioProgrammer/getting-started-book). Also, as a self-taugh C++ coder, some of the code could certainly be better written, both in terms of clarity and optimisation.
+**Disclaimer**: As a self-taugh C++ coder, some of the code could certainly be better written, both in terms of clarity and optimisation.
 
 ## Notes on plugins design and performances
 ---
@@ -37,3 +36,12 @@ To build these plugins from scratch, follow these steps:
 ## XmaxLowshelf
 ---
 ![XmaxLowShelf plugin image](https://github.com/eliot-des/Xmax-Protection-Plugins/blob/main/readme/XmaxLowShelf.png)
+
+
+## Credit
+---
+
+- **GUI Design:** [Matthijs Hollemans](https://github.com/hollance), who created this [repository](https://github.com/TheAudioProgrammer/getting-started-book), from which the majority of the GUI components are derived.  
+- **Lato Font:** Designed by Łukasz Dziedzic.
+
+--- 
