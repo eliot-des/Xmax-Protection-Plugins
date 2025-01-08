@@ -9,6 +9,9 @@ The plugins were fully coded in C++ using the JUCE framework, after implementing
 
 **Disclaimer:** The GUI style is the one seen on this [repository](https://github.com/TheAudioProgrammer/getting-started-book). Also, as a self-taugh C++ coder, some of the code could certainly be better written, both in terms of clarity and optimisation.
 
+## Notes on plugins design and performances
+---
+For detailed information about the algorithms design, performances on various test signals, and more, please refer to the [project report](https://github.com/eliot-des/Xmax-Protection-Plugins/blob/main/Deschang_Marie_Mechanical_protection_algorithms_for_loudspeakers.pdf) provided in this repository.
 
 ## XmaxFeedback
 ---
