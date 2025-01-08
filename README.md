@@ -7,7 +7,7 @@ Mechanical overload is prevented by limiting the membrane excursion to a certain
 During the course of this research, three plugins were developed to evaluate the effectiveness of these algorithms on a loudspeaker.  
 The plugins were fully coded in C++ using the JUCE framework, after implementing and testing the algorithms in Python.
 
-**Disclaimer:** The GUI style is the one seen on this [repository](https://github.com/TheAudioProgrammer/getting-started-book). Also, I'm a self-taugh C++ coder, therefore, some of the code could certainly be better written, both in terms of clarity and optimisation.
+**Disclaimer:** The GUI style is the one seen on this [repository](https://github.com/TheAudioProgrammer/getting-started-book). Also, as a self-taugh C++ coder, some of the code could certainly be better written, both in terms of clarity and optimisation.
 
 
 ## XmaxFeedback
