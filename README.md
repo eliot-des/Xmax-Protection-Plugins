@@ -14,7 +14,7 @@ For detailed information about the algorithms design, performances on various te
 
 ## Build
 ---
-Since plugin formats differ depending on the operating system (Windows, macOS ARM/Intel, or Linux), prebuilt versions in VST/VST3/AAX formats are not provided in this repository, except for Windows, as it is the only operating system available on my machine.
+Since plugin formats differ depending on the operating system (Windows, macOS ARM/Intel, or Linux), prebuilt versions in VST/VST3/AAX formats are not provided in this repository, except for Windows (check release section on the right), as it is the only operating system available on my machine.
 
 To build these plugins from scratch, follow these steps:
 
