@@ -73,7 +73,7 @@ private:
 
     juce::HyperlinkButton websiteLinkButton{
         "Eliot Deschang, Florian Marie",
-        juce::URL("https://github.com/eliot-des/Xmax-Protection")
+        juce::URL("https://github.com/eliot-des/Xmax-Protection-Plugins")
     };
     
     juce::GroupComponent inputGroup, speakerGroup, envelopeGroup, gainComputerGroup, outputGroup;
