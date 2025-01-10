@@ -13,7 +13,7 @@ During the course of this research, three plugins were developed to evaluate the
 
 ## Notes on plugins design and performances
 ---
-For detailed information about the algorithms design, performances on various test signals, and more, please refer to the [project report](https://github.com/eliot-des/Xmax-Protection-Plugins/blob/main/Deschang_Marie_Mechanical_protection_algorithms_for_loudspeakers.pdf) provided in this repository.
+For detailed information about the algorithms design, performances on various test signals, and more, please refer to the [project report](https://github.com/eliot-des/Xmax-Protection-Plugins/blob/main/Report_Mechanical_protection_algorithms_for_loudspeakers.pdf) provided in this repository.
 
 ## Build
 ---
