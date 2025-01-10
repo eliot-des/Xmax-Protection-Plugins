@@ -1,5 +1,8 @@
 # Xmax Protection Plugins : Audio plugins for mechanical overload protection of loudspeakers.
 ---
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+
+
 Eliot Deschang & Florian Marie 2025, IMDEA Master students, Le Mans University.
 
 This repository gathers three different plugins implemented as part of a Master 2 project scheduled over three months, supervised by [Antonin Novak](https://ant-novak.com/). The aim of the project was to develop algorithms to prevent mechanical overload of loudspeakers. Mechanical overload is prevented by limiting the membrane excursion to a certain threshold, referred to as $X_{\text{max}}$.  
@@ -43,5 +46,18 @@ To build these plugins from scratch, follow these steps:
 
 - **GUI Design:** [Matthijs Hollemans](https://github.com/hollance), who created this [repository](https://github.com/TheAudioProgrammer/getting-started-book), from which the majority of the GUI components are derived.  
 - **Lato Font:** Designed by Łukasz Dziedzic.
-
 --- 
+
+## Licences
+---
+
+Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
