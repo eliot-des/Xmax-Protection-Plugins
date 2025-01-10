@@ -13,7 +13,17 @@ During the course of this research, three plugins were developed to evaluate the
 
 ## Notes on plugins design and performances
 ---
-For detailed information about the algorithms design, performances on various test signals, and more, please refer to the [project report](https://github.com/eliot-des/Xmax-Protection-Plugins/blob/main/Report_Mechanical_protection_algorithms_for_loudspeakers.pdf) provided in this repository.
+For detailed information about the algorithms design (block diagrams), performances on various test signals, and more, please refer to the [project report](https://github.com/eliot-des/Xmax-Protection-Plugins/blob/main/Report_Mechanical_protection_algorithms_for_loudspeakers.pdf) provided in this repository.
+
+Here's a quick summary of the advantages and disadvantages of each plugin in table form. These observations are likely to depend on the exciation signal, as well as the loudspeaker used, but have been observed in most cases.
+
+| **Algorithm**           | **Pros**                           | **Cons**                               |
+|-------------------------|------------------------------------|----------------------------------------|
+| **Feedback**            | No latency<br>Sounds transparent   | Can add distortion<br>Poor transient robustness |
+| **Feedback look-ahead** | More robust to transients<br>      | Can add distortion<br>Latency                  |
+| **Limiter**             | Very robust (*brickwall*)          | Can add *Pumping effect*<br>Latency            |
+| **Low-shelf**           | Sounds transparent                 | Less robust compared to the limiter<br>Latency |
+
 
 ## Build
 ---
