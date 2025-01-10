@@ -15,7 +15,7 @@ During the course of this research, three plugins were developed to evaluate the
 ---
 For detailed information about the algorithms design (block diagrams), performances on various test signals, and more, please refer to the [project report](https://github.com/eliot-des/Xmax-Protection-Plugins/blob/main/Report_Mechanical_protection_algorithms_for_loudspeakers.pdf) provided in this repository.
 
-Here's a quick summary of the advantages and disadvantages of each plugin in table form. These observations are likely to depend on the exciation signal, as well as the loudspeaker used, but have been observed in most cases.
+Here's a quick summary of the advantages and disadvantages of each plugin in table form. These observations are likely to depend on the excitation signal, as well as the loudspeaker used, but have been observed in most cases.
 
 | **Algorithm**           | **Pros**                           | **Cons**                               |
 |-------------------------|------------------------------------|----------------------------------------|
