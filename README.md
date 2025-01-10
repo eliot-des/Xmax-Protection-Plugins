@@ -19,10 +19,10 @@ Here's a quick summary of the advantages and disadvantages of each plugin in tab
 
 | **Algorithm**           | **Pros**                           | **Cons**                               |
 |-------------------------|------------------------------------|----------------------------------------|
-| **Feedback**            | No latency<br>Sounds transparent   | Can add distortion<br>Poor transient robustness |
-| **Feedback look-ahead** | More robust to transients<br>      | Can add distortion<br>Latency                  |
-| **Limiter**             | Very robust (*brickwall*)          | Can add *Pumping effect*<br>Latency            |
-| **Low-shelf**           | Sounds transparent                 | Less robust compared to the limiter<br>Latency |
+| **Feedback**            | No latency<br>Sounds transparent   | Can add distortion<br>Poor transient robustness               |
+| **Feedback look-ahead** | More robust to transients<br>      | Can add distortion<br>Latency                                 |
+| **Limiter**             | Very robust (*brickwall*)          | Can add *Pumping effect*<br>Latency<br>Add quantization noise |
+| **Low-shelf**           | Sounds transparent                 | Less robust compared to the limiter<br>Latency                |
 
 
 ## Build
