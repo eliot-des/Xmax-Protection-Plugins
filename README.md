@@ -5,7 +5,8 @@
 
 Eliot Deschang & Florian Marie 2025, IMDEA Master students, Le Mans University.
 
-This repository gathers three different plugins implemented as part of a Master 2 project scheduled over three months, supervised by [Antonin Novak](https://ant-novak.com/). The aim of the project was to develop algorithms to prevent mechanical overload of loudspeakers. Mechanical overload is prevented by limiting the membrane excursion to a certain threshold, referred to as $X_{\text{max}}$.  
+This repository gathers three different plugins implemented as part of a Master 2 project scheduled over three months, supervised by [Antonin Novak](https://ant-novak.com/). The aim of the project was to develop algorithms to prevent mechanical overload of loudspeakers. Mechanical overload is prevented by limiting the membrane excursion to a certain threshold, referred to as $X_{\text{max}}$. The implemented plugins are designed to limit loudspeakers where the transfer function linking displacement to voltage is of the second order. This approach is feasible under certain assumptions, such as loudspeakers mounted on an infinite baffle or in sealed-box systems.
+
 
 During the course of this research, three plugins were developed to evaluate the effectiveness of these algorithms on a loudspeaker. The plugins were fully coded in C++ using the JUCE framework, after implementing and testing the algorithms in Python.
 
@@ -23,6 +24,14 @@ Here's a quick summary of the advantages and disadvantages of each plugin in tab
 | **Feedback look-ahead** | More robust to transients<br>      | Can add distortion<br>Latency                                 |
 | **Limiter**             | Very robust (*brickwall*)          | Can add *Pumping effect*<br>Latency<br>Add quantization noise |
 | **Low-shelf**           | Sounds transparent                 | Less robust compared to the limiter<br>Latency                |
+
+
+## Potential Extensions and Improvements
+---
+Future developments or enhancements to this project could include:
+
+- **Support for Higher-Order Transfer Functions**: Allowing the input of higher-order transfer functions to control the membrane excursion of more complex systems, such as bass-reflex enclosures.
+- **User-Friendly Loudspeaker Parameter Input**: Adding a tool to input the characteristics of the loudspeaker directly, instead of relying on hard-coded values in the source code.
 
 
 ## Build
