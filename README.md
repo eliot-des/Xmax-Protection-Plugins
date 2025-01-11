@@ -32,7 +32,7 @@ Future developments or enhancements to this project could include:
 
 - **Support for Higher-Order Transfer Functions**: Allowing the input of higher-order transfer functions to control the membrane excursion of more complex systems, such as bass-reflex enclosures.
 - **User-Friendly Loudspeaker Parameter Input**: Adding a tool to input the characteristics of the loudspeaker directly, instead of relying on hard-coded values in the source code.
-
+- **Stereo button support**: In fact, the stereo button does nothing... The idea was to merge a stereo signal and process a mono signal in the plugin.
 
 ## Build
 ---
