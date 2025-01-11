@@ -33,7 +33,7 @@ Future developments or enhancements to this project could include:
 - **Support for Higher-Order Transfer Functions**: Allowing the input of higher-order transfer functions to control the membrane excursion of more complex systems, such as bass-reflex enclosures.
 - **User-Friendly Loudspeaker Parameter Input**: Adding a tool to input the characteristics of the loudspeaker directly, instead of relying on hard-coded values in the source code.
 - **Stereo button support**: In fact, the stereo button does nothing... The idea was to merge a stereo signal and process a mono signal in the plugin.
-- **Moving minimum filter optimization**: The [actual moving mnimum filter implemented](https://github.com/eliot-des/Xmax-Protection-Plugins/blob/main/XmaxLimiter/Source/MinFilter.h) could be optimized according to algorithms described by [Gil & Kimmel](https://www.researchgate.net/publication/51604160_Running_MaxMin_Filters_Using_1o1_Comparisons_per_Sample), or by [Yuan & Atallah](https://www.researchgate.net/publication/51604160_Running_MaxMin_Filters_Using_1o1_Comparisons_per_Sample/citations), for example. 
+- **Moving minimum filter optimization**: The [actual moving minimum filter](https://github.com/eliot-des/Xmax-Protection-Plugins/blob/main/XmaxLimiter/Source/MinFilter.h) implemented could be optimized according to algorithms described by [Gil & Kimmel](https://www.researchgate.net/publication/51604160_Running_MaxMin_Filters_Using_1o1_Comparisons_per_Sample), or by [Yuan & Atallah](https://www.researchgate.net/publication/51604160_Running_MaxMin_Filters_Using_1o1_Comparisons_per_Sample/citations), for example. 
 
 ## Build
 ---
